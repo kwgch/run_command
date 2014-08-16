@@ -1,0 +1,19 @@
+[color]
+  ui = auto
+[alias]
+  co = checkout
+  st = status
+  di = diff
+  ci = commit
+  br = branch
+  llog = log --date=local
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  mg = merge
+[rerere]
+  enabled = true
+[user]
+	email = m.kwgch@gmail.com
+	name = kwgch
+[core]
+	editor = /usr/bin/vim
+	pager = less
