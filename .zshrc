@@ -96,8 +96,8 @@ function vcs_prompt_info() {
 }
 # end VCS
 
-OK="(^ _ ^) "
-NG="(X O X) "
+OK="^_^ "
+NG="X_X "
 
 PROMPT=""
 PROMPT+="%(?.%F{green}$OK%f.%F{red}$NG%f) "
